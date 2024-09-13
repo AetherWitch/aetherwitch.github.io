@@ -5,10 +5,10 @@ body{
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    
+    box-sizing: border-box;
 }
 header{
-    background-color: rgb(96,79,150);
+    background-color: black;
     background-image: url('banner\ image.png');
     background-repeat: no-repeat;
     background-position: center top;
@@ -64,17 +64,32 @@ img{
     text-align: center;
     padding: 5%;
 }
-.projectBlock{
+
+
+.projectCol{
+    
     background-color: black;
     padding:5px;
     max-width: 100em;
     display: table-cell;
     border-spacing: 30%;
-    
+}
+/* mobile */
+.projectCol{
+    width:100%;
+}
+/*tablets*/
+@media only screen and (min-width:600px){
+    .projectCol{width:50%;}
+}
+
+/*Desktop*/
+@media only screen and (min-width:768px){
+    .projectCol{width:50%;}
 }
 
 footer{
-    background-color: rgb(96,79,150);
+    background-color: black;
     min-height: fit-content;
     bottom:0;
     width: 100%;

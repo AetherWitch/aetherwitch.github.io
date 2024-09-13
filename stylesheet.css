@@ -67,25 +67,26 @@ img{
 
 
 .projectCol{
-    
     background-color: black;
     padding:5px;
     max-width: 100em;
     display: table-cell;
     border-spacing: 30%;
 }
+.paraBlock{margin:auto;}
 /* mobile */
-.projectCol{
-    width:100%;
-}
+.projectCol{width:100%;}
+.paraBlock{width:100%;}
 /*tablets*/
 @media only screen and (min-width:600px){
     .projectCol{width:50%;}
+    .paraBlock{width:50%;}
 }
 
 /*Desktop*/
 @media only screen and (min-width:768px){
     .projectCol{width:50%;}
+    .paraBlock{width:50%;}
 }
 
 footer{

@@ -1,4 +1,4 @@
-# portfolio.github.io
+# Portfolio
 Displays portfolio of projects that I have worked on
 
-currently work in progress
+Check out aetherwitch.github.io today to view my portfolio :)

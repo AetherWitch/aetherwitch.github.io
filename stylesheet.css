@@ -75,8 +75,8 @@ img{
 }
 .paraBlock{margin:auto;}
 /* mobile */
-.projectCol{width:100%;}
-.paraBlock{width:100%;}
+.projectCol{width:50%;}
+.paraBlock{width:50%;}
 /*tablets*/
 @media only screen and (min-width:600px){
     .projectCol{width:50%;}
